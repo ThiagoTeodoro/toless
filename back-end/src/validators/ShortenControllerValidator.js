@@ -10,7 +10,7 @@ module.exports = {
 
         return celebrate({
             [Segments.BODY] : Joi.object().keys({
-                originalUrl: Joi.string().required().min(1),
+                originalUrl: Joi.string().uri().required().min(1),
             }),
         });
     }
