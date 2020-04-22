@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 
-import index from './pages/index';
+import index from './pages/Index';
 
 function App() {
   return (

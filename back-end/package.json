@@ -1,0 +1,22 @@
+{
+  "name": "toless",
+  "version": "1.0.0",
+  "description": "Projeto para encurtamento de URL's",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thiago Teodoro Rodrigues",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "celebrate": "^12.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.10"
+  }
+}
